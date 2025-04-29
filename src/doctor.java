@@ -46,7 +46,7 @@ public class doctor {
         }
     }
 
-    public String toString(){return("doctor name is "+this.doctorName+"doctor id is "+this.doctorID+"avilability"+isAvailable);
+    public String toString(){return("doctor name is "+this.doctorName+" doctor id is "+this.doctorID+" avilability "+isAvailable+"specializition is"+this.specialization);
     }
     public boolean equals(doctor other){
         if(this.doctorName.equals(other.doctorName)&&this.doctorID==other.doctorID&&this.noOfPatients==other.noOfPatients)
